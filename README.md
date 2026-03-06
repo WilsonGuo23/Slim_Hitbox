@@ -1,6 +1,6 @@
 # Slim Hitbox Enclosure
 
-Welcome to the **Slim Hitbox Enclosure** project! This repository contains 3D models, assembly instructions, and detailed documentation for building a compact, 3D-printed hitbox-style arcade controller.
+This repository contains 3D models, assembly instructions, and detailed documentation for building a compact, 3D-printed hitbox-style arcade controller.
 
 ## Project Overview
 
