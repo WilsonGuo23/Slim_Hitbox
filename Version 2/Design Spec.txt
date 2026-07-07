@@ -1,0 +1,121 @@
+# Modular Arcade Controller PCBs
+
+## Project Specification
+
+**Version:** 0.1 Draft
+
+---
+
+# 1. Purpose
+
+The Modular Arcade Controller PCBs project is an open-source collection of PCBs designed to simplify the construction of custom arcade controllers. The project divides common controller functions into dedicated, reusable modules that reduce wiring complexity and improve maintainability.
+
+---
+
+# 2. Motivation
+
+Custom arcade controllers often require extensive point-to-point wiring, making assembly, modification, and troubleshooting time-consuming.
+
+This project replaces much of that wiring with standardized PCB modules that can be reused across multiple controller builds.
+
+---
+
+# 3. Scope
+
+This document defines the overall architecture of the Modular Arcade Controller PCBs project.
+
+Detailed electrical, mechanical, and functional requirements for each PCB are defined in their respective specification documents.
+
+---
+
+# 4. Objectives
+
+The project shall:
+
+* Reduce controller assembly time.
+* Minimize custom wiring.
+* Support modular hardware expansion.
+* Be reusable across multiple controller designs.
+* Remain compatible with GP2040-CE.
+* Be suitable for hobbyist assembly.
+
+---
+
+# 5. System Architecture
+
+The project consists of four primary PCB modules:
+
+* Action Button PCB
+* Movement Button PCB
+* Administrative Button PCB
+* OLED Display PCB
+
+The Action Button PCB serves as the central controller while the remaining modules provide dedicated functionality through standardized interfaces.
+
+---
+
+# 6. Design Principles
+
+All modules should:
+
+* Perform a single primary function.
+* Use standardized electrical interfaces.
+* Be reusable across controller designs.
+* Be easy to manufacture and assemble.
+* Maintain compatibility with future project revisions.
+
+---
+
+# 7. Action Button PCB
+
+The Action Button PCB serves as the primary controller for the system.
+
+It hosts a Raspberry Pi Pico running GP2040-CE firmware while interfacing with the controller's primary action buttons. It also provides power and communication interfaces for the remaining modules.
+
+---
+
+# 8. Movement Button PCB
+
+The Movement Button PCB provides directional inputs for the controller.
+
+It interfaces with the Action Button PCB through the project's standardized connector interface.
+
+---
+
+# 9. Administrative Button PCB
+
+The Administrative Button PCB provides non-gameplay controller inputs such as Start, Select, Home/Xbox, and other system buttons supported by GP2040-CE.
+
+It communicates with the Action Button PCB using the project's standardized interface.
+
+---
+
+# 10. OLED Display PCB
+
+The OLED Display PCB provides the controller's user interface.
+
+It supports an OLED display and a rotary encoder used for menu navigation and firmware-supported configuration features.
+
+---
+
+# 11. Module Interfaces
+
+All PCB modules shall connect using standardized electrical interfaces.
+
+Interface specifications, connector pinouts, and communication protocols are defined separately to ensure compatibility between hardware revisions.
+
+---
+
+# 12. Firmware
+
+The system is designed for GP2040-CE running on the Raspberry Pi Pico located on the Action Button PCB.
+
+Additional modules shall integrate using interfaces supported by the firmware whenever practical.
+
+---
+
+# 13. Future Development
+
+Additional PCB modules may be developed to extend the functionality of the controller.
+
+Future modules should follow the architectural principles defined in this specification and maintain compatibility with the existing module interfaces.
