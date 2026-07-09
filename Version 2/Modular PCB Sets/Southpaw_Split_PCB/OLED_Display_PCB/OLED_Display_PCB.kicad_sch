@@ -1330,7 +1330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4840ff2e-9832-40d2-b41e-5c0c4e3d9a5e")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 166.37 87.6299 0)
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wilson's_Footprint_Library:Hosyond SH1106 OLED Display"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -1388,6 +1388,12 @@
 			(uuid "e7578b40-601b-43f6-8bf2-cc6003dc8243")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/0e181ba1-7794-44cb-ad32-5d32438b070a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "OLED_Display_PCB"
 				(path "/b5d6275e-4442-4422-957c-10e43bae2dcb"
 					(reference "U2")
@@ -1465,6 +1471,12 @@
 			(uuid "bc474f68-488e-4902-bcad-20f2a409505a")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/0e181ba1-7794-44cb-ad32-5d32438b070a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "OLED_Display_PCB"
 				(path "/b5d6275e-4442-4422-957c-10e43bae2dcb"
 					(reference "SW1")
@@ -1483,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd3698b4-0d80-4c91-b1db-bb9e4227c864")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 149.86 49.53 90)
 			(effects
 				(font
@@ -1548,6 +1560,12 @@
 			(uuid "38e1b450-8098-41b5-ba17-013490fcb447")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/0e181ba1-7794-44cb-ad32-5d32438b070a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b5d6275e-4442-4422-957c-10e43bae2dcb"
 					(reference "J1")

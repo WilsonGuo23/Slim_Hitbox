@@ -1387,7 +1387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d701c91-0263-4e0b-8e94-5f5302468e6c")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -1437,6 +1437,12 @@
 			(uuid "23614f32-8e0e-402d-a440-06dab8072a05")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "R3")
@@ -1455,7 +1461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23fb83cc-5b98-4d21-85c4-b7ccdc571133")
-		(property "Reference" "D17"
+		(property "Reference" "D5"
 			(at 129.54 117.1575 0)
 			(effects
 				(font
@@ -1515,6 +1521,12 @@
 			(uuid "100a8c9a-7f78-411d-b9bb-d05aa011a2ed")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "D17")
@@ -1533,7 +1545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3969c274-8572-477f-b63a-ee1730afdedc")
-		(property "Reference" "R18"
+		(property "Reference" "R5"
 			(at 129.54 107.95 90)
 			(effects
 				(font
@@ -1584,6 +1596,12 @@
 			(uuid "c75cc2a4-5f19-4984-9d04-103548ad041b")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "R18")
@@ -1601,7 +1619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb162f3-3d03-4f02-8700-5d3be1bd3b27")
-		(property "Reference" "D14"
+		(property "Reference" "D2"
 			(at 111.76 90.4875 0)
 			(effects
 				(font
@@ -1661,6 +1679,12 @@
 			(uuid "bca7f7c7-4729-4f71-bdbc-6e98a3cc5814")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "D14")
@@ -1729,6 +1753,12 @@
 			(uuid "90fedc88-b9a8-400e-9550-0cdbf106c3d2")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "GUIDE1")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "GUIDE1")
@@ -1747,7 +1777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c26cf9a-3813-4ca5-8326-940f4c3d1aa6")
-		(property "Reference" "D15"
+		(property "Reference" "D3"
 			(at 116.84 99.3775 0)
 			(effects
 				(font
@@ -1808,6 +1838,12 @@
 			(uuid "71eff0de-50f8-4e5c-affa-48db7151c91a")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "D15")
@@ -1826,7 +1862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd00dae-0a00-4561-8bab-25eedce6da28")
-		(property "Reference" "R15"
+		(property "Reference" "R2"
 			(at 111.76 81.28 90)
 			(effects
 				(font
@@ -1877,6 +1913,12 @@
 			(uuid "05d50c73-d00e-41b1-ba54-30d114cf1a8c")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "R15")
@@ -1895,7 +1937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631cd2ba-f218-4ed3-88d3-c30bdcf4b541")
-		(property "Reference" "R17"
+		(property "Reference" "R4"
 			(at 121.92 99.06 90)
 			(effects
 				(font
@@ -1947,6 +1989,12 @@
 			(uuid "43bed315-ea90-495c-b487-4c3829dc6161")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "R17")
@@ -1965,7 +2013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ea16502-d6ff-45fb-afb7-488607b05ece")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -2015,6 +2063,12 @@
 			(uuid "3e50bd6d-b069-4b1f-9631-18727aad045c")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "L3")
@@ -2033,7 +2087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bb4ed21-856a-488f-a927-0fca00ece085")
-		(property "Reference" "R16"
+		(property "Reference" "R3"
 			(at 116.84 90.17 90)
 			(effects
 				(font
@@ -2085,6 +2139,12 @@
 			(uuid "b11dd8c1-51c2-4bd7-b09c-8b406d2f2ed6")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "R16")
@@ -2103,7 +2163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5974c00-bdb3-4f66-8e49-8a883b23595f")
-		(property "Reference" "D16"
+		(property "Reference" "D4"
 			(at 121.92 108.2675 0)
 			(effects
 				(font
@@ -2164,6 +2224,12 @@
 			(uuid "338e0a9e-468d-453d-b3f1-914db4b2d6f1")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "D16")
@@ -2232,6 +2298,12 @@
 			(uuid "ce0a1d3e-02de-44ad-9057-0fd6c82dcd7c")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "BACK1")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "BACK1")
@@ -2339,7 +2411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db17c82b-2760-4490-a045-540dcda64dbf")
-		(property "Reference" "D10"
+		(property "Reference" "D1"
 			(at 106.68 81.5975 0)
 			(effects
 				(font
@@ -2398,6 +2470,12 @@
 			(uuid "80a14b15-3aec-4c59-b4c6-a00067da2885")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "D10")
@@ -2432,7 +2510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wilson's_Footprint_Library:MTS-101 Toggle Switch"
 			(at 167.64 120.65 0)
 			(effects
 				(font
@@ -2466,6 +2544,12 @@
 			(uuid "87f22ab6-8809-48d3-838b-b46563db41d2")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "Tournament_Lockout1")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "Tournament_Lockout1")
@@ -2534,6 +2618,12 @@
 			(uuid "99d10722-8833-476f-938e-591e41537798")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "START1")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "START1")
@@ -2552,7 +2642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5da720e-5dc9-4c33-8b04-a458a6b7e15a")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 106.68 72.39 90)
 			(effects
 				(font
@@ -2602,6 +2692,12 @@
 			(uuid "1dbed180-67fc-433a-8a72-1dd499fd9314")
 		)
 		(instances
+			(project "Southpaw_Split_PCB"
+				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/e03b2be5-b154-4df2-afd7-f34ad8480ee8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "Administrative_Button_PCB"
 				(path "/27e8b247-a568-4b96-98c7-e76fba4b3a84"
 					(reference "R4")
