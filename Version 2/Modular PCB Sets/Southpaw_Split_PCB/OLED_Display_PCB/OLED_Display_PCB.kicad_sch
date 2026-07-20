@@ -1330,7 +1330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4840ff2e-9832-40d2-b41e-5c0c4e3d9a5e")
-		(property "Reference" "U1"
+		(property "Reference" "OLED1"
 			(at 166.37 87.6299 0)
 			(effects
 				(font
@@ -1390,13 +1390,13 @@
 		(instances
 			(project "Southpaw_Split_PCB"
 				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/0e181ba1-7794-44cb-ad32-5d32438b070a"
-					(reference "U1")
+					(reference "OLED1")
 					(unit 1)
 				)
 			)
 			(project "OLED_Display_PCB"
 				(path "/b5d6275e-4442-4422-957c-10e43bae2dcb"
-					(reference "U2")
+					(reference "OLED1")
 					(unit 1)
 				)
 			)
@@ -1412,7 +1412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f8fdee-d4e9-4c76-be12-e37b057df807")
-		(property "Reference" "SW1"
+		(property "Reference" "RotarySW1"
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -1473,13 +1473,13 @@
 		(instances
 			(project "Southpaw_Split_PCB"
 				(path "/12c03e98-16e3-4861-a1ce-d2b4d8ad36ee/0e181ba1-7794-44cb-ad32-5d32438b070a"
-					(reference "SW1")
+					(reference "RotarySW1")
 					(unit 1)
 				)
 			)
 			(project "OLED_Display_PCB"
 				(path "/b5d6275e-4442-4422-957c-10e43bae2dcb"
-					(reference "SW1")
+					(reference "RotarySW1")
 					(unit 1)
 				)
 			)
@@ -1568,7 +1568,7 @@
 			)
 			(project ""
 				(path "/b5d6275e-4442-4422-957c-10e43bae2dcb"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
