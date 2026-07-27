@@ -3432,6 +3432,28 @@
 		)
 		(uuid "fe94190f-0a22-4693-a153-4d9253a09cf4")
 	)
+	(global_label "3v3"
+		(shape input)
+		(at 208.28 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e76d2ea-ea3e-4af4-af21-9462612686e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6518 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LT"
 		(shape input)
 		(at 144.78 111.76 180)
@@ -3992,7 +4014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "072336ec-da7f-4a88-bedb-dd379f39ceb1")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 116.205 88.9 0)
 			(effects
 				(font
@@ -4078,7 +4100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2f497a-5cc1-4efd-a2e1-7c9e425ac48a")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 76.2 96.52 90)
 			(effects
 				(font
@@ -4300,7 +4322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb9db31-1202-439b-ace7-0b3447926960")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 76.2 106.68 90)
 			(effects
 				(font
@@ -4638,7 +4660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c91d4b5-ec32-4c60-bf34-4b1de710de1c")
-		(property "Reference" "D15"
+		(property "Reference" "D6"
 			(at 66.9925 106.68 0)
 			(effects
 				(font
@@ -4795,7 +4817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64aa4b10-7820-432c-9f08-fb888773c574")
-		(property "Reference" "D12"
+		(property "Reference" "D3"
 			(at 66.9925 76.2 0)
 			(effects
 				(font
@@ -4878,7 +4900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67539334-d4ea-42c0-939f-48f6ea26390d")
-		(property "Reference" "R13"
+		(property "Reference" "R4"
 			(at 76.2 86.36 90)
 			(effects
 				(font
@@ -4952,7 +4974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "676a55b4-898d-404b-bfee-641c58bc0a2b")
-		(property "Reference" "D16"
+		(property "Reference" "D7"
 			(at 66.9925 116.84 0)
 			(effects
 				(font
@@ -5100,6 +5122,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 173.99 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "730fd82d-1908-408c-9583-ba0cf3610827")
+		(property "Reference" "#PWR02"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01db0c59-dec3-4b69-a8b1-40ca8176f0a5")
+		)
+		(instances
+			(project "Action_Button_PCB"
+				(path "/a02ab618-f8ec-4fe1-96a1-02c68a63a2db"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 97.79 77.47 0)
 		(unit 1)
@@ -5183,7 +5271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79cda7a3-4404-408f-bf96-833cd2c800c7")
-		(property "Reference" "D13"
+		(property "Reference" "D4"
 			(at 66.9925 86.36 0)
 			(effects
 				(font
@@ -5266,7 +5354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81e92702-17d9-49a7-8dc2-0f267d061235")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 76.2 76.2 90)
 			(effects
 				(font
@@ -5340,7 +5428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d564d2e-deb8-4e5c-ba93-ac3f991166be")
-		(property "Reference" "D17"
+		(property "Reference" "D8"
 			(at 66.9925 127 0)
 			(effects
 				(font
@@ -5497,7 +5585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a57936e-59df-41e0-b6e0-43d90d14eae7")
-		(property "Reference" "R16"
+		(property "Reference" "R7"
 			(at 76.2 116.84 90)
 			(effects
 				(font
@@ -5646,7 +5734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add672cd-2b66-4b68-991f-781d1c86b48a")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 255.905 88.9 0)
 			(effects
 				(font
@@ -5735,7 +5823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f8025f-5f7d-4a97-9043-5f161a47e894")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 76.2 55.88 90)
 			(effects
 				(font
@@ -5809,7 +5897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b44c5863-e6ec-41a7-ae30-005ea2c51c39")
-		(property "Reference" "D14"
+		(property "Reference" "D5"
 			(at 66.9925 96.52 0)
 			(effects
 				(font
@@ -5892,7 +5980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b547c7ca-767b-4dbd-b95a-c3771e1d50a3")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 76.2 66.04 90)
 			(effects
 				(font
@@ -5966,7 +6054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf73ee1f-182a-41ff-977a-a054aef2712a")
-		(property "Reference" "R17"
+		(property "Reference" "R8"
 			(at 76.2 127 90)
 			(effects
 				(font
@@ -6040,7 +6128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c458070f-4b75-4093-a939-593ee3e4e6e3")
-		(property "Reference" "D10"
+		(property "Reference" "D1"
 			(at 66.9925 55.88 0)
 			(effects
 				(font
@@ -6123,7 +6211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd271702-9c62-4d93-9d29-884d1ab56d1f")
-		(property "Reference" "D11"
+		(property "Reference" "D2"
 			(at 66.9925 66.04 0)
 			(effects
 				(font
@@ -6278,7 +6366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f728bc8c-9a4b-43f5-81cf-2fa55051d261")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 140.97 27.94 90)
 			(effects
 				(font
