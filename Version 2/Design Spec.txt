@@ -119,3 +119,7 @@ Additional modules shall integrate using interfaces supported by the firmware wh
 Additional PCB modules may be developed to extend the functionality of the controller.
 
 Future modules should follow the architectural principles defined in this specification and maintain compatibility with the existing module interfaces.
+
+PCB Through holes should be 3mm from each side and pushbutton switch centers should be 24mm from the closest side. 
+LEDs are to be placed above the switch 11mm from center to center
+Resistors that pair with the LED should be placed to the right of the LED with 4mm from through hole to through hole

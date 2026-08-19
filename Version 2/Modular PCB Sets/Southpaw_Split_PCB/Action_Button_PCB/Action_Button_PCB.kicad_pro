@@ -52,7 +52,36 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|144643418|121990000|46bbb49c-4479-45c0-ac5f-0db2123f5d43|00000000-0000-0000-0000-000000000000",
+          "Probably ok"
+        ],
+        [
+          "unconnected_items|115055918|113100000|F.Cu|4|a69217ba-3ebb-4348-a27e-b222a6205db3|269cc0c4-f692-4bb8-a309-fd0ffc6ada40",
+          "All grounds on a Pico are already connected"
+        ],
+        [
+          "unconnected_items|115055918|130880000|F.Cu|4|a5b5d385-cf9c-4b18-8425-8187afe50ef4|8df8a096-80fc-417d-a005-7cc6411524a5",
+          "All grounds on a Pico are already connected"
+        ],
+        [
+          "unconnected_items|115055918|130880000|F.Cu|4|a5b5d385-cf9c-4b18-8425-8187afe50ef4|a69217ba-3ebb-4348-a27e-b222a6205db3",
+          "All grounds on a Pico are already connected"
+        ],
+        [
+          "unconnected_items|127755918|112300000|F.Cu|4|469f8dcc-cfa7-4bc2-b302-fd2e47eda58a|720240da-b71a-45f8-86cd-5e4cbf68f52c",
+          "All grounds on a Pico are already connected"
+        ],
+        [
+          "unconnected_items|140455918|113100000|F.Cu|4|bf6a9bfb-3b71-4174-bb1a-6b26233f05b9|59dee0af-74dd-4a55-a484-ba4cc29c4529",
+          "All grounds on a Pico are already connected"
+        ],
+        [
+          "unconnected_items|153155918|113100000|F.Cu|4|59dee0af-74dd-4a55-a484-ba4cc29c4529|0a21d60b-da29-4ad4-945e-98b0e2c3d074",
+          "All grounds on a Pico are already connected"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -487,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

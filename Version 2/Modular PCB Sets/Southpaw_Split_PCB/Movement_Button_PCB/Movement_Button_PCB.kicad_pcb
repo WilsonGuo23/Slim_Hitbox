@@ -41,10 +41,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../Gerbers/Movement_Button_Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -95,7 +95,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "DOWN1"
-			(at -2.54 -2.794 0)
+			(at -5.89 -0.27 0)
 			(layer "F.SilkS")
 			(uuid "079e4d1f-37a1-456d-a975-91486bff20e5")
 			(effects
@@ -307,7 +307,7 @@
 			(uuid "53c7a38b-3cf3-4f9a-8a49-85d55c7e610b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -5.89 -0.27 0)
 			(layer "F.Fab")
 			(uuid "2fb7eab6-ccbe-4731-a86c-9671a57e0f76")
 			(effects
@@ -611,7 +611,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "LEFT1"
-			(at -2.54 -2.794 0)
+			(at -6.54 -0.27 0)
 			(layer "F.SilkS")
 			(uuid "97d6a829-afc3-48d2-9360-d27af04e6f2a")
 			(effects
@@ -823,7 +823,7 @@
 			(uuid "d0f8e71d-2869-43fc-9405-cc25321c8dce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -6.54 -0.27 0)
 			(layer "F.Fab")
 			(uuid "5e9683ee-940b-4943-aa58-22f6dff9eb03")
 			(effects
@@ -2285,7 +2285,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "UP1"
-			(at -2.54 -3.254 0)
+			(at -6.89 -0.27 0)
 			(layer "F.SilkS")
 			(uuid "f36e5ac1-f559-4794-8259-c35f9006e7b9")
 			(effects
@@ -2497,7 +2497,7 @@
 			(uuid "19111f71-52fb-4710-8eaa-f14af082794c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -3.254 0)
+			(at -6.89 -0.27 0)
 			(layer "F.Fab")
 			(uuid "cf644b22-089c-430f-94e5-83117440de83")
 			(effects
@@ -2570,7 +2570,7 @@
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "RIGHT1"
-			(at -2.54 -2.794 0)
+			(at -5.89 -0.27 0)
 			(layer "F.SilkS")
 			(uuid "a54b0c07-3a70-4525-a284-7a5bd257a49b")
 			(effects
@@ -2782,7 +2782,7 @@
 			(uuid "b64e57bb-e903-4b19-b90d-3cf76defcef0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.54 -2.794 0)
+			(at -5.89 -0.27 0)
 			(layer "F.Fab")
 			(uuid "82578587-58de-47dd-8cff-526a7a981872")
 			(effects
